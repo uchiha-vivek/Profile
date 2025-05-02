@@ -1,6 +1,6 @@
 "use client";
 
-import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaEnvelope, FaGithub, FaLinkedin,FaFile } from "react-icons/fa";
 
 
 export default function Contact() {
@@ -41,6 +41,17 @@ export default function Contact() {
             className="text-blue-500 underline"
           >
             https://github.com/uchiha-vivek
+          </a>
+        </li>
+        <li className="flex items-center gap-2">
+          <FaFile className="text-gray-500" />
+          <a
+            href="https://drive.google.com/file/d/1BNANrZJ2fAjuyuBhbjILUigQkR3dZ9Eu/view"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 underline"
+          >
+            https://drive.google.com/file/d/1BNANrZJ2fAjuyuBhbjILUigQkR3dZ9Eu/view
           </a>
         </li>
       </ul>
