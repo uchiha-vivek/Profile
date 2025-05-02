@@ -8,15 +8,18 @@ export default function Experience() {
 
   const experiences = [
     {
-      role: "Software Engineer / Contributor",
+      role: "Lead AI Engineer",
       company: "Ally Solutions ",
       image: "/ally-portfolio.png",
       duration: "Nov 2024 - current",
       summary: "Building conversational voice and chat assistant .",
-      bullets: [
-        "Built  Leomartile Bot using Azure AI and ally's agentic pipeline to query with tile's info in real time .",
-        "Building solutions for contact centers using Azure AI , AWS Connect and Ally's pipeline to solve customer issues ",
+      bullets:[
+        "Built  for Leomarile using Azure AI, Azure Cosmos DB, and OpenAI to provide real-time information on tiles to users.",
+        "Developing Ally Voice, a 24/7 voice automation system that answers incoming calls, greets customers by name and intent, and ensures no missed opportunities for conversion.",
+        "Developing the Centers Health Care Ally App with secure authentication for unlimited users, email alerts, and a file uploader for patient records. Integrated Azure Cosmos DB to manage 15K+ records and enabled LLM-based Text & Image Analytics for extracting medical data. Added a Voice Assistant for hands-free access to diagnostics and symptoms.",
+        "Designing an AI-powered SMS chatbot for Yachtsy to automate driver scheduling and confirmations for FareHarbor rides. Using Twilio and Azure to message drivers based on availability, shift count, and fatigue limits."
       ],
+      
       tech: [
         "AWS",
         "Azure",
@@ -27,7 +30,7 @@ export default function Experience() {
         "React+Vite"
       ],
       projects: [
-        { name: "Ally Solutions", url: "https://www.allysolutions.ai/" },
+        { name: "Ally Solutions", url: "https://www.allysolutions.ai/our-team" },
       ],
     },
     // {
