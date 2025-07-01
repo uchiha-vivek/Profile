@@ -8,10 +8,10 @@ export default function Experience() {
 
   const experiences = [
     {
-      role: "Lead AI Engineer",
+      role: "Founding Engineer",
       company: "Ally Solutions ",
       image: "/ally-portfolio.png",
-      duration: "Nov 2024 - current",
+      duration: "Oct 2024 - current",
       summary: "Building conversational voice and chat assistant .",
       bullets:[
         "Built  for Leomarile using Azure AI, Azure Cosmos DB, and OpenAI to provide real-time information on tiles to users.",
